@@ -1,0 +1,41 @@
+{
+  "name": "@schoox/schoox-mcp-server",
+  "version": "1.0.2",
+  "description": "MCP server for querying Schoox LMS data via AI assistants",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/schoox/schoox-mcp-server.git"
+  },
+  "homepage": "https://github.com/schoox/schoox-mcp-server#readme",
+  "bin": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "generate": "tsx scripts/generate-tools.ts",
+    "build": "tsup",
+    "dev": "tsx src/index.ts",
+    "lint": "eslint src/",
+    "prepublishOnly": "npm run build && npm run lint",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "eslint": "^9.0.0",
+    "tsup": "^8.5.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.7.0",
+    "typescript-eslint": "^8.59.3",
+    "vitest": "^4.1.0",
+    "yaml": "^2.9.0"
+  }
+}

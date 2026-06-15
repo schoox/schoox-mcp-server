@@ -14,6 +14,8 @@ Connect your AI assistant to your Schoox academy and use natural language to que
 > When you use this server with an AI client (Claude Desktop, Claude Code, Cursor, etc.), data returned by the tools is transmitted to your AI provider's servers as part of the conversation. Depending on your account type and your provider's policies, that data may be retained, logged, or used for model training (for example, on free or consumer-tier accounts). Review your AI provider's data usage and retention policies, and prefer accounts or plans with appropriate data protections (such as commercial or enterprise terms that guarantee no training on your data) before connecting this server to production academy data.
 >
 > **Disclaimer:** Schoox is not responsible for any data leaks, data exposure, or misuse of data resulting from use of this tool. Responsibility for compliance with your organization's data handling policies and applicable privacy regulations rests with you.
+>
+> For additional information, please see Schoox's [AI Functionality Policy](https://www.schoox.com/ai-functionality-policy/).
 
 ## Prerequisites
 

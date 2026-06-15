@@ -6,6 +6,15 @@ Connect your AI assistant to your Schoox academy and use natural language to que
 
 <video src="https://github.com/user-attachments/assets/0dfb79fb-06da-4716-8a59-b25e7075b706" width="100%" autoplay loop muted></video>
 
+> [!WARNING]
+> ## Data Privacy
+>
+> This server exposes sensitive Schoox data. The API returns **user PII** (names, emails, employment data) and **corporate confidential information** (training records, org structure, business data). Any data the MCP tools retrieve flows through your connected AI assistant.
+>
+> When you use this server with an AI client (Claude Desktop, Claude Code, Cursor, etc.), data returned by the tools is transmitted to your AI provider's servers as part of the conversation. Depending on your account type and your provider's policies, that data may be retained, logged, or used for model training (for example, on free or consumer-tier accounts). Review your AI provider's data usage and retention policies, and prefer accounts or plans with appropriate data protections (such as commercial or enterprise terms that guarantee no training on your data) before connecting this server to production academy data.
+>
+> **Disclaimer:** Schoox is not responsible for any data leaks, data exposure, or misuse of data resulting from use of this tool. Responsibility for compliance with your organization's data handling policies and applicable privacy regulations rests with you.
+
 ## Prerequisites
 
 - **Node.js 18+** ([download](https://nodejs.org/))

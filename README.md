@@ -4,7 +4,11 @@ MCP server for querying Schoox LMS data via AI assistants.
 
 Connect your AI assistant to your Schoox academy and use natural language to query users, courses, enrollments, progress, events, and more -- without writing API code.
 
-<video src="https://github.com/user-attachments/assets/0dfb79fb-06da-4716-8a59-b25e7075b706" width="100%" autoplay loop muted></video>
+
+
+<video src="https://github.com/user-attachments/assets/65f8cdd8-4c2b-4975-a6a3-5d179b8274c0" width="100%" autoplay loop muted></video>
+
+
 
 > [!WARNING]
 > ## Data Privacy
